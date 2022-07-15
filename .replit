@@ -1,6 +1,7 @@
 run = """
-python3 Hello.py
+
 """
+#python3 Hello.py
 # The command that runs the program. Commented out because it is not run when the interpreter command is set
 # run = "python3 main.py"
 # The primary language of the repl. There can be others, though!
