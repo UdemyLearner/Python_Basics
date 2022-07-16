@@ -1,7 +1,6 @@
-from dis import dis
-from math import fabs
-from operator import truediv
+
 import random
+
 stages = ['''
   +---+
   |   |
@@ -88,4 +87,5 @@ while not end_of_game:                                                      # wh
         print(stages[lives])
         if lives==0:
             end_of_game=True
+            
 
