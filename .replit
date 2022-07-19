@@ -1,5 +1,6 @@
 run = """
-
+python Hello.py
+cd Day\ 5/ python PasswordGenrator.py
 """
 #python3 Hello.py
 # The command that runs the program. Commented out because it is not run when the interpreter command is set
