@@ -1,8 +1,6 @@
-def greet():
-    print("Hello")
-
-def greet_with_name(name):
-    print(f"Hello {name}")    
- 
-greet()
-greet_with_name("Nanu")    
+def greet(name,location):
+    print("hello " + name)
+    print("what is it like in "+location)        
+greet("Nanu","Indore")    
+print()
+greet(location="Indore",name="Nanu")    
