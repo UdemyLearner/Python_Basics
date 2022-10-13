@@ -14,7 +14,7 @@ display = []
 for _ in range(word_length):
     display += "_"
 
-while not end_of_game:
+while not end_of_game:                  # not end_of_game IS SAME AS end_of_game == false 
     guess = input("Guess a letter: ").lower()
     os.system('cls')
     if guess in display:
