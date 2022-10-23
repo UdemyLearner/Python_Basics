@@ -3,6 +3,7 @@ import turtle as tuktuk
                              #tuktuk = turtle.Turtle()
 print(tuktuk)
 tuktuk.shape("turtle")
+tuktuk.color("coral")
 tuktuk.clone()
 tuktuk.forward(100.0)
 
